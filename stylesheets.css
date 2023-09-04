@@ -65,9 +65,14 @@
 
 
 
-html {
-    scroll-behavior: smooth;
-}
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
 
     body, div, ul {
         margin: 0;
@@ -76,8 +81,10 @@ html {
 
     @media screen and (min-width: 1440px) {
 
-        body {
-            width: 1440px;
+       body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
 
@@ -113,14 +120,14 @@ html {
             width: 50px;
             height: 50px;
             position: absolute;
-            top: 130px;
-            left: 60px;
+            top: 110px;
+            left: 65px;
         }
 
         #button-contactme {
             position: absolute;
-            top: 135px;
-            right: 305px;
+            top: 110px;
+            left: 916px;
             display: flex;
             width: 164px;
             padding: 10px;
@@ -143,8 +150,8 @@ html {
 
         #Contact_me_shadowrectangle {
             position: absolute;
-            top: 140px;
-            right: 299px;
+            top: 115px;
+            left: 928px;
             width: 176px;
             height: 55px;
             flex-shrink: 0;
@@ -157,8 +164,8 @@ html {
             border: 1px solid #000;
             background: #A8F901;
             position: absolute;
-            top: 135px;
-            right: 74px;
+            top: 110px;
+            left: 1162px;
             display: flex;
             width: 164px;
             padding: 10px;
@@ -177,8 +184,8 @@ html {
         
         #Menu_shadowrectangle {
             position: absolute;
-            top: 140px;
-            right: 68px;
+            top: 115px;
+            left: 1168px;
             width: 164px;
             height: 58px;
             flex-shrink: 0;
@@ -197,8 +204,8 @@ html {
         .dropdown:hover .dropdown-content {
             display: block;
             position: absolute;
-            top: 193px;
-            right: 74px;
+            top: 168px;
+            left: 1168px;
     }
 
         .dropdown-content a {
@@ -207,7 +214,10 @@ html {
             text-decoration: none;
             color: #000;
             font-family: Poppins;
-            font-size: 18px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 33.538px;
         }
 
         .dropdown-content a:hover {
@@ -271,8 +281,8 @@ html {
 
 
         .hero-paragraph {
-            width: 270px;
-            height: 88px;
+            width: 301px;
+            height: 85px;
             flex-shrink: 0;
             color: #000;
             font-family: Poppins;
@@ -281,8 +291,8 @@ html {
             font-weight: 400;
             line-height: 140%;
             position: absolute;
-            top: 146px;
-            right: 920px;
+            top: 196px;
+            right: 970px;
         }
 
         h1 {
@@ -343,7 +353,7 @@ html {
             background: url(<path-to-image>), lightgray 50% / cover no-repeat;
             position: absolute;
             top: 817px;
-            right: 68px;  
+            left: 1260px;  
             z-index: 0;  
         }
 
@@ -365,7 +375,7 @@ html {
             line-height: 29.938px; 
             position: absolute;
             top: 741px;
-            right: 68px;
+            left: 1260px;
         }
 
         .rectangle-bottom {
@@ -375,7 +385,7 @@ html {
             background: rgba(0, 0, 0, 0.50);
             position: absolute;
             top: 733px;
-            right: 74px;
+            left: 1280px;
             z-index: -1;
         }
 
@@ -664,7 +674,7 @@ html {
             line-height: 18px;
             position: absolute;
             top: 2528px;
-            left: 380px;
+            left: 363px;
         }
 
         .App-Design-text {
@@ -684,7 +694,7 @@ html {
             line-height: 18px;
             position: absolute;
             top: 2528px;
-            left: 498px;
+            left: 502px;
         }
 
         .Drivers-Job-app-text {
@@ -724,7 +734,7 @@ html {
             text-decoration: none;
             position: absolute;
             top: 2645px;
-            left: 594px;
+            left: 580px;
         }
 
         #Viewcasestudybutton-1:hover {
@@ -733,14 +743,14 @@ html {
 
 
         .rectangle-below-button {
-            width: 180px;
-            height: 46px;
+            width: 179px;
+            height: 42px;
             flex-shrink: 0;
             border: 1px solid #000;
             background: #A8F901;
             position: absolute;
-            top: 2649px;
-            left: 603px;
+            top: 2650px;
+            left: 588px;
             z-index: -1;
         }
 
@@ -908,13 +918,13 @@ html {
         }
 
         .rectangle-below-button-2 {
-            width: 180px;
-            height: 45px;
+            width: 178px;
+            height: 42px;
             flex-shrink: 0;
             border: 1px solid #000;
             background: #A8F901;
             position: absolute;
-            top: 3245px;
+            top: 3247px;
             left: 729px;
             z-index: -1;
         }
@@ -1033,7 +1043,7 @@ html {
             text-decoration: none;
             position: absolute;
             top: 3846px;
-            left: 589px;
+            left: 580px;
         }
 
         #Viewcasestudybutton-3:hover {
@@ -1041,14 +1051,14 @@ html {
         }
 
         .rectangle-below-button-3 {
-            width: 180px;
-            height: 43px;
+            width: 179px;
+            height: 42px;
             flex-shrink: 0;
             border: 1px solid #000;
             background: #A8F901;
             position: absolute;
-            top: 3853px;
-            left: 598px;
+            top: 3852px;
+            left: 588px;
             z-index: -1;
         }
 
@@ -1175,14 +1185,14 @@ html {
 
 
         .rectangle-below-button-4 {
-            width: 180px;
-            height: 46px;
+            width: 179px;
+            height: 42px;
             flex-shrink: 0;
             border: 1px solid #000;
             background: #A8F901;
             position: absolute;
-            top: 4435px;
-            left: 729px;
+            top: 4436px;
+            left: 728px;
             z-index: -1;
         }
 
@@ -1301,7 +1311,7 @@ html {
             transition: transform 0.3s;
             position: absolute;
             top: 4695px;
-            left: 1141px;
+            left: 1271px;
         }
         .expanded .arrow-icon1 {
             display: none;
@@ -1314,7 +1324,7 @@ html {
             flex-shrink: 0;
             position: absolute;
             top: 4684px;
-            left: 1137px;
+            left: 1271px;
             display: none;
             transition: transform 0.3s;
         }
@@ -1325,7 +1335,7 @@ html {
 
 
         .UIUX-Designer-line1 {
-            width: 493px;
+            width: 632px;
             height: 1px;
             background: #000;
             position: absolute;
@@ -1334,15 +1344,15 @@ html {
         }
         .expanded .UIUX-Designer-line1 {
             position: absolute;
-            top: 4828px;
+            top: 4810px;
             left: 718px;
         }
 
 
 
         .UIUX-Designer-section-content {
-            width: 450px;
-            height: 68px;
+            width: 598px;
+            height: 88px;
             flex-shrink: 0;
             color: #000;
             font-family: Poppins;
@@ -1384,14 +1394,14 @@ html {
             transition: transform 0.3s;
             position: absolute;
             top: 4776px;
-            left: 1141px;
+            left: 1271px;
         }
         .expanded .arrow-icon2 {
             display: none;
         }
 
         .Web-Design-line1 {
-            width: 493px;
+            width: 632px;
             height: 1px;
             background: #000;
             position: absolute;
@@ -1400,7 +1410,7 @@ html {
         }
         .expanded .Web-Design-line1 {
             position: absolute;
-            top: 4908px;
+            top: 4890px;
             left: 718px;
         }
 
@@ -1411,7 +1421,7 @@ html {
             flex-shrink: 0;
             position: absolute;
             top: 4765px;
-            left: 1137px;
+            left: 1271px;
             display: none;
         }
         .expanded .cross-icon2 {
@@ -1420,8 +1430,8 @@ html {
 
 
         .Web-Design-section-content {
-            width: 450px;
-            height: 93px;
+            width: 598px;
+            height: 88px;
             flex-shrink: 0;
             color: #000;
             font-family: Poppins;
@@ -1461,7 +1471,7 @@ html {
             flex-shrink: 0;
             position: absolute;
             top: 4866px;
-            left: 1141px;
+            left: 1271px;
         }
         .expanded .arrow-icon3 {
             display: none;
@@ -1474,7 +1484,7 @@ html {
             flex-shrink: 0;
             position: absolute;
             top: 4857px;
-            left:1137px;
+            left: 1271px;
             display: none;
         }
         .expanded .cross-icon3 {
@@ -1482,8 +1492,8 @@ html {
         }
 
         .Graphic-Design-section-content {
-            width: 450px;
-            height: 93px;
+            width: 601px;
+            height: 88px;
             flex-shrink: 0;
             color: #000;
             font-family: Poppins;
@@ -1501,7 +1511,7 @@ html {
         }
 
         .Graphic-Design-line3 {
-            width: 493px;
+            width: 632px;
             height: 1px;
             background: #000;
             position: absolute;
@@ -1510,7 +1520,7 @@ html {
         }
         .expanded .Graphic-Design-line3 {
             position: absolute;
-            top: 4996px;
+            top: 4979px;
             left: 718px;
         }
 
@@ -1535,7 +1545,7 @@ html {
             flex-shrink: 0;
             position: absolute;
             top: 4948px;
-            left: 1141px;
+            left: 1271px;
         }
         .expanded .arrow-icon4 {
             display: none;
@@ -1548,7 +1558,7 @@ html {
             display: none;
             position: absolute;
             top: 4937px;
-            left: 1137px;
+            left: 1271px;
         }
         .expanded .cross-icon4 {
             display: block;
@@ -1556,7 +1566,7 @@ html {
 
 
         .Web-Development-line3 {
-            width: 493px;
+            width: 632px;
             height: 1px;
             background: #000;
             position: absolute;
@@ -1565,12 +1575,12 @@ html {
         }
         .expanded .Web-Development-line3 {
             position: absolute;
-            top: 5060px;
+            top: 5056px;
             left: 718px;
         }
 
         .Web-Development-section-content {
-            width: 450px;
+            width: 601px;
             height: 66px;
             flex-shrink: 0;
             color: #000;
@@ -1580,7 +1590,7 @@ html {
             font-weight: 400;
             line-height: 23.476px;
             position: absolute;
-            top: 4972px;
+            top: 4970px;
             left: 749px;
             display: none;
         }
@@ -1589,7 +1599,7 @@ html {
         }
 
 
-        .HTML-CSS, .Javascript, .Web-development, .Photoshop, .Figma, .Protopie, .UX-Research, .Product-Design {
+        .HTML-CSS, .Javascript, .Web-development, .Photoshop, .Figma, .Protopie, .UX-Research, .Product-Design, .Art-Design {
             display: inline-flex;
             padding: 12px 20px;
             justify-content: center;
@@ -1638,9 +1648,12 @@ html {
             left: 1077px;
         }
         
+        .Art-Design {
+            left: 1237px;
+        }
 
 
-        .Web-Design, .Usability-testing, .UX-Design, .Wireframing, .User-Interface-Design, .Interaction-Design {
+        .Web-Design, .Usability-testing, .UX-Design, .Wireframing, .User-Interface-Design, .Interaction-Design, .Wordpress {
             display: inline-flex;
             padding: 12px 20px;
             justify-content: center;
@@ -1682,8 +1695,11 @@ html {
             left: 986px;
         }
     
+        .Wordpress {
+            left: 1162px;
+        }
 
-        .Branding, .Information-Architecture, .Basic-Prototyping, .Advanced-Prototyping, .Responsive-Design, .Logo-Design {
+        .Branding, .Information-Architecture, .Basic-Prototyping, .Advanced-Prototyping, .Responsive-Design, .Logo-Design, .Adobe-Indesign {
             display: inline-flex;
             padding: 12px 20px;
             justify-content: center;
@@ -1724,9 +1740,12 @@ html {
             left: 1086px;
         }
 
+        .Adobe-Indesign {
+            left: 1215px;
+        }
         
         .services-declaration-text {
-            width: 1240px;
+            width: 1297px;
             height: 230px;
             flex-shrink: 0;
             color: #000;
@@ -1803,7 +1822,7 @@ html {
             background: #A8F901;
             position: absolute;
             top: 5637px;
-            left: 1062px;
+            left: 928px;
         }
 
         /* Footer Section */
@@ -1941,7 +1960,7 @@ html {
             height: 70px;
             flex-shrink: 0;
             position: absolute;
-            top: 6675px;
+            top: 6735px;
             left: 130px;
         }
 
@@ -1954,7 +1973,7 @@ html {
             line-height: 29.938px;
             position: absolute;
             top: 6655px;
-            left: 653px;
+            left: 698px;
         }
 
         #LinkedIn {
@@ -1987,7 +2006,7 @@ html {
             transition: text-decoration 0.3s ease-in-out;
             position: absolute;
             top: 6741px;
-            left: 673px;
+            left: 715px;
         }
 
         #Behance:hover {
@@ -2004,13 +2023,33 @@ html {
             transition: text-decoration 0.3s ease-in-out;
             position: absolute;
             top: 6741px;
-            left: 927px;
+            left: 1011px;
             text-decoration: none;
         }
 
         #Dribble:hover {
             text-decoration: underline;
         }
+
+        #Email {
+            color: #000;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 35.925px;
+            transition: text-decoration 0.3s ease-in-out;
+            position: absolute;
+            top: 6741px;
+            left: 1285px;
+            text-decoration: none;
+        }
+
+        #Email:hover {
+            text-decoration: underline;
+        }
+
+
 
         #footer-contactme-button {
             display: flex;
@@ -2029,7 +2068,7 @@ html {
             transition: text-decoration 0.3s ease-in-out;
             position: absolute;
             top: 6867px;
-            left: 644px;
+            left: 685px;
             text-decoration: none;
 
         }
@@ -2046,7 +2085,7 @@ html {
             background: #A8F901;
             position: absolute;
             top: 6871px;
-            left: 653px;
+            left: 694px;
             z-index: -1;
         }
 
@@ -2071,7 +2110,7 @@ html {
             line-height: 29.938px;
             position: absolute;
             top: 7003px;
-            left: 1032px;
+            left: 1082px;
             bottom: 80px;
         }
         
@@ -2216,6 +2255,9 @@ html {
             color: #000;
             font-family: Poppins;
             font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.83px;
         }
     
         .dropdown-content a:hover {
@@ -2361,7 +2403,7 @@ html {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 7.5px;
+        gap: 20px;
         border: 0.75px solid #000;
         background: #A8F901;
         transform: rotate(90deg);
@@ -4068,14 +4110,34 @@ html {
         bottom: 20px;
     }
 
+    #Email {
+        display: none;
+    }
+
+    .Art-Design {
+        display: none;
+    }
+
+    .Wordpress {
+        display: none;
+    }
+    .Adobe-Indesign {
+        display: none;
+    }
+
 
 }
 
+
+
+
+
 /*Screen sizes 320px mobile phones screens*/
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 500px) {
 
     body {
-        width: 1024px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
 
@@ -4108,11 +4170,12 @@ html {
 
     
     .logo img#logo-image {
-        width: 50px;
-        height: 50px;
+        width: 25px;
+        height: 25px;
+        flex-shrink: 0;
         position: absolute;
-        top: 130px;
-        left: 39px;
+        top: 100px;
+        left: 23px;
     }
 
     #button-contactme {
@@ -4134,6 +4197,7 @@ html {
         font-weight: 500;
         line-height: 26.944px;
         text-decoration: none;
+        display: none;
     }
     
     #button-contactme:hover{
@@ -4150,36 +4214,37 @@ html {
         border: 0.75px solid #000;
         background: #A8F901;
         z-index: -1;
+        display: none;
     }
 
     .dropdown-button{
         border: 0.75px solid #000;
         background: #A8F901;
         position: absolute;
-        top: 135px;
-        left: 876px;
+        top: 100px;
+        right: 60px;
         display: flex;
-        width: 123px;
-        padding: 7.5px;
+        width: 67px;
+        padding: 4px;
         justify-content: center;
         align-items: center;
-        gap: 7.5px;
+        gap: 4px;
         color: #000;
         font-family: Poppins;
-        font-size: 18px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 500;
-        line-height: 26.944px;
+        line-height: 15px;
         text-decoration: none;
         cursor: pointer;
     }
     
     #Menu_shadowrectangle {
         position: absolute;
-        top: 142px;
-        left: 882px;
-        width: 122px;
-        height: 43px;
+        top: 104px;
+        right: 58px;
+        width: 65px;
+        height: 24px;
         flex-shrink: 0;
         background: #000;
         z-index: -1;
@@ -4196,17 +4261,20 @@ html {
     .dropdown:hover .dropdown-content {
         display: block;
         position: absolute;
-        top: 190px;
-        left: 880px;
+        top: 120px;
+        right: 60px;
    }
 
     .dropdown-content a {
         display: block;
-        padding: 8px;
+        padding: 6px;
         text-decoration: none;
         color: #000;
         font-family: Poppins;
-        font-size: 16px;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11.975px;
     }
 
     .dropdown-content a:hover {
@@ -4215,124 +4283,165 @@ html {
 
 /* hero section */
 
-#circle-1 {
-    width: 633px;
-    height: 613.5px;
+#footer-contactme-button {
+        background: #000;
+        position: absolute;
+        top: 430px;
+        left: 150px;
+        display: flex;
+        width: 67px;
+        padding: 4px;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15px;
+        text-decoration: none;
+        cursor: pointer;
+}
+#footer-contactme-button:hover {
+    text-decoration: underline;
+}
+
+
+.rectangle-below-contactme-footer {
+    width: 72px;
+    height: 20px;
     flex-shrink: 0;
-    border-radius: 633px;
-    background: radial-gradient(50% 50.00% at 50% 50.00%, #A8F901 0%, #FFF 100%);
+    border: 1px solid #000;
+    background: #A8F901;
     position: absolute;
-    left: -137px;
-    top: -79px;
+    top: 434px;
+    left: 154px;
+    z-index: -1;
+}
+
+#circle-1 {
+    width: 316.5px;
+    height: 306.75px;
+    flex-shrink: 0;
+    border-radius: 316.5px;
+    background: radial-gradient(50% 50% at 50% 50%, #A8F901 0%, #FFF 100%);
+    position: absolute;
+    left: -97px;
+    top: -42px;
     z-index: -1;
 }
 
 #circle-2 {
-    width: 627.75px;
-    height: 627.75px;
+    width: 313.875px;
+    height: 313.875px;
     flex-shrink: 0;
-    border-radius: 627.75px;
-    border: 0.75px solid #000;
+    border-radius: 313.875px;
+    border: 0.375px solid #000;
     position: absolute;
-    left: -106px;
-    top: -79px;
+    left: -87px;
+    top: -42px;
     z-index: 0;
 }
 
 .circle-3 {
     display: flex;
-    width: 96px;
-    height: 96px;
-    padding: 6px;
+    width: 48.375px;
+    height: 48.375px;
+    padding: 3.75px;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 3.75px;
     flex-shrink: 0;
-    border-radius: 75px;
-    border: 0.75px solid #000;
+    border-radius: 37.5px;
+    border: 0.375px solid #000;
     background: #FFF;
     position: absolute;
-    left: 472px;
-    top: 170px;
+    left: 204px;
+    top: 78px;
     z-index: 1;
+    display: none;
 }
 
 .circle-3 p {
-    width: 66px;
+    width: 25.5px;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 4.5px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%;
+    line-height: 7px;
+    display: none;
 }
 
 
 .hero-paragraph {
-    width: 270px;
-    height: 88px;
+    width: 157px;
+    height: 55px;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 7px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%;
+    line-height: 11px;
     position: absolute;
-    top: 146px;
-    left: 85px;
+    top: 83px;
+    margin-inline-start: 10px;
 }
 
 h1 {
-    width: 805.5px;
-    height: 123.75px;
+    width: 260px;
+    height: 122px;
     flex-shrink: 0;
     color: #000;
     font-family: Silk Serif;
-    font-size: 96px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 146px;
+    line-height: 73px;
     position: absolute;
-    top: 290.75px;
-    left: 70.75px;
+    top: 160px;
+    margin-inline-start: 10px;
+    
 }
 
 #marcy-mumo-text{
     color: #000;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 23px;
     position: absolute;
-    top: 301.25px;
-    left: 84.25px;
+    top: 158px;
+    align-self: start;
+    margin-inline-start: 12px;
 }
 
 #UX-addicted-text {
     color: #000;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 45px;
+    line-height: 23px;
     position: absolute;
-    top: 445px;
-    left: 684px;
+    top: 314px;
+    left: 172px;
     width: 193px;
 }
 
 #my-image {
-    width: 156.75px;
-    height: 156.75px;
+    width: 80px;
+    height: 80px;
     flex-shrink: 0;
     border-radius: 156.75px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     position: absolute;
-    top: 267px;
-    left: 720px;
+    top: 223px;
+    left: 194px;
 }
 
 #scrolldown-animation {
@@ -4345,6 +4454,7 @@ h1 {
     top: 667px;
     left: 947px; 
     z-index: 0;  
+    display: none;
 }
 
 .rectangle-top {
@@ -4366,6 +4476,7 @@ h1 {
     position: absolute;
     top: 610px;
     left: 947px;
+    display: none;
 }
 
 .rectangle-bottom {
@@ -4377,59 +4488,60 @@ h1 {
     top: 605px;
     left: 961px;
     z-index: -1;
+    display: none;
 }
 
 /* About section */
 h2 {
-    width: 680px;
-    height: 129px;
+    width: 282px;
+    height: 130px;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26.83px;
+    line-height: 16.769px;
     position: absolute;
-    top: 920px;
-    left: 310px;  
+    top: 720px;
+    margin-inline-start: 10px;  
 
 }
 
 .creative-text {
     color: #000;
     font-family: Silk Serif;
-    font-size: 96px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 146px;
+    line-height: 73px;
     position: absolute;
-    top: 571px;
-    left: 261px;
+    top: 560px;
+    margin-inline-start: 10px; 
 }
 
 .designer-text {
     color: #000;
     font-family: Silk Serif;
-    font-size: 96px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 146px;
+    line-height: 73px;
     position: absolute;
-    top: 658px;
-    left: 346px;
+    top: 604px;
+    left: 58px; 
 }
 
 .developer-text {
     color: #000;
     font-family: Silk Serif;
-    font-size: 96px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 500;
-    line-height: 146px;
+    line-height: 73px;
     position: absolute;
-    top: 1009px;
-    left: 65px;
+    top: 830px;
+    margin-inline-start: 10px; 
 }
 
 .Mountains-image-container {
@@ -4440,12 +4552,14 @@ h2 {
     position: absolute;
     top: 1142px;
     left: 525px;
+    display: none;
 }
 
 #Mountains-image {
     width: 476px;
     height: 184px;
     flex-shrink: 0;
+    display: n;
 }
 
 .About-text {
@@ -4459,8 +4573,8 @@ h2 {
     font-weight: 500;
     line-height: 18px;
     position: absolute;
-    top: 927px;
-    left: 102px;
+    top: 512px;
+    left: 66px;
 }
 
 .Marcy-text {
@@ -4474,8 +4588,8 @@ h2 {
     font-weight: 300;
     line-height: 18px; 
     position: absolute;
-    top: 944px;
-    left: 102px;
+    top: 528px;
+    left: 66px;
 }
 
 .svg-shape {
@@ -4483,8 +4597,8 @@ h2 {
     height: 20px;
     flex-shrink: 0;
     position: absolute;
-    top: 942px;
-    left: 70px;
+    top: 528px;
+    left: 32px;
 }
 
 .rotated-line {
@@ -4496,108 +4610,114 @@ h2 {
     position: absolute;
     top: 1000px;
     left: 280px;  
+    display: none;
 }
 
 .UIUX-Designer-text, .Product-Designer-text, .Graphic-Designer-text {
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 12px;
 
 }
 
 .UIUX-Designer-text {
     position: absolute;
-    top: 694px;
-    left: 643px;
-    width: 105px;
+    top: 613px;
+    left: 220px;
+    width: 65px;
 }
 
 .Product-Designer-text {
     position: absolute;
-    top: 714px;
-    left: 643px;
-    width: 120px;
+    top: 627px;
+    left: 220px;
+    width: 71px;
 }
 
 .Graphic-Designer-text { 
     position: absolute;
-    top: 734px;
-    left: 643px;
-    width: 125px;
+    top: 640px;
+    left: 220px;
+    width: 81px;
 }
 
 h3 {
-    width: 951px;
-    height: 172.5px;
+    width: 290px;
+    height: 157px;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 45px;
+    line-height: 24px;
     position: absolute;
-    top: 1424px;
-    left: 64px;
+    top: 964px;
+    margin-inline-start: 10px;
 
 }
 
 .storyteller-text, .bridging-gaps-text, .building-bridges-text, .cultures-text, .communities-text {
     color: #000;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 24px;
 }
 
 .storyteller-line {
-    width: 160.5px;
+    width: 88px;
     height: 2px;
     flex-shrink: 0;
     background: #A8F901;
     position: absolute;
-    top: 1490px;
-    left: 835px;
+    top: 1013px;
+    left: 196px;
+    display: none;
 }
 
 .bridging-gaps-line {
-    width: 212.25px;
+    width: 114px;
     height: 2px;
     background: #FF2E2E;
     position: absolute;
-    top: 1584px;
-    left: 66px;
+    top: 1064px;
+    left: 200px;
+    display: none;
 }
 
 .building-bridges-line {
-    width: 250.5px;
+    width: 132px;
     height: 2px;
     background: #FFBA07;
     position: absolute;
-    top: 1584px;
-    left: 714px;
+    top: 1110px;
+    margin-inline-start: 10px;
+    display: none;
 }
 
 .cultures-line {
-    width: 122.25px;
+    width: 70px;
     height: 2px;
     background: #9644FF;
     position: absolute;
-    top: 1623px;
-    left: 207px;
+    top: 1110px;
+    left: 240px;
+    display: none;
 }
 
 .communities-line {
-    width: 202.5px;
+    width: 108px;
     height: 2px;
     background: #000;
     position: absolute;
-    top: 1623px;
-    left: 409px;    
+    top: 1135px;
+    left: 64px;    
+    display: none;
 }
 
 
@@ -4605,126 +4725,125 @@ h3 {
 /* Projects Section */
 
 #DriveCrewApp {
-    width: 451.17px;
-    height: 296px;
+    width: 286px;
+    height: 188px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     position: absolute;
-    top: 1786px;
-    left: 543px;
+    top: 1341px;
+    margin-inline-start: 10px;
 }
 
 .DriveCrew-card-header {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 24px;
     position: absolute;
-    top: 1777px;
-    left: 256px;
-    width: 180px;
+    top: 1544px;
+    margin-inline-start: 10px;
 }
 
 .DriveCrew-card-description {
-    width: 399px;
-    height: 129px;
+    width: 287px;
+    height: 64px;
     flex-shrink: 0;
     color: #000;
-    text-align: right;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30.184px;
+    line-height:  20.123px;
     position: absolute;
-    top: 1828px;
-    left: 37px;
+    top: 1583px;
+    margin-inline-start: 10px;
 }
 
 
 .logistics-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: rgba(0, 0, 0, 0.20);
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 1980px;
-    left: 46px;
-    width: 52px;
+    top: 1675px;
+    margin-inline-start: 10px;
+    width: 50px;
+    height: 12px;
 }
 
 .App-Design-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: rgba(168, 249, 1, 0.25);
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 1980px;
-    left: 164px;
-    width: 70px;
+    top: 1675px;
+    left: 118px;
+    width: 47px;
 }
 
 .Drivers-Job-app-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: #A8F901;
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 1980px;
-    left: 300px;
-    width: 96px;
+    top: 1675px;
+    left: 207px;
+    width: 60px;
 }
 
 #Viewcasestudybutton-1 {
     display: flex;
-    width: 164px;
-    padding: 10px;
+    width: 130px;
+    padding: 8px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background: #000;
     color: #FFF;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 15px;
     text-decoration: none;
     position: absolute;
-    top: 2096px;
-    left: 266px;
+    top: 1730px;
+    margin-inline-start: 10px;
 }
 
 #Viewcasestudybutton-1:hover {
@@ -4733,14 +4852,14 @@ h3 {
 
 
 .rectangle-below-button {
-    width: 180px;
-    height: 43px;
+    width: 144px;
+    height: 30px;
     flex-shrink: 0;
-    border: 1px solid #000;
+    border: 0.792px solid #000;
     background: #A8F901;
     position: absolute;
-    top: 2102px;
-    left: 274px;
+    top: 1733px;
+    left: 30px;
     z-index: -1;
 }
 
@@ -4749,11 +4868,8 @@ h3 {
     height: 18.75px;
     flex-shrink: 0;
     position: absolute;
-    top: 2649px;
-    left: 603px;
-    position: absolute;
-    top: 2176px;
-    left: 60px;
+    top: 1245px;
+    margin-inline-start: 10px;
 }
 
 #My-work-text {
@@ -4767,8 +4883,8 @@ h3 {
     font-weight: 500;
     line-height: 18px;
     position: absolute;
-    top: 2162px;
-    left: 90px;   
+    top: 1230px;
+    left: 60px;   
 }
 
 #marcy-mumo-text-projects {
@@ -4782,129 +4898,129 @@ h3 {
     font-weight: 300;
     line-height: 18px;
     position: absolute;
-    top: 2179px;
-    left: 90px;  
+    top: 1245px;
+    left: 60px;  
 }
 
 #Pawsitive-Web-img {
-    width: 450.4px;
-    height: 296px;
+    width: 286px;
+    height: 188px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     position: absolute;
-    top: 2285px;
-    left: 33px;
+    top: 1823px;
+    margin-inline-start: 10px;
 }
 
 .Pawsitive-website-header {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 24px;
     position: absolute;
-    top: 2281px;
-    left: 579px;
-    width: 316px;
+    top: 2025px;
+    margin-inline-start: 10px;
+    width: 211px;
 }
 
 .Pawsitive-website-description {
-    width: 399px;
-    height: 129px;
+    width: 285px;
+    height: 76px;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30.184px;
+    line-height: 20.123px;
     position: absolute;
-    top: 2332px;
-    left: 579px;
+    top: 2064px;
+    margin-inline-start: 10px;
 }
 
 .Pet-adoption-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: #A8F901;
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 2485px;
-    left: 579px;
-    width: 78px;
+    top: 2156px;
+    margin-inline-start: 10px;
+    width: 52px;
 }
 
 .Website-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: rgba(168, 249, 1, 0.25);
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 2485px;
-    left: 723px;
-    width: 50px;
+    top: 2156px;
+    left: 120px;
+    width: 33px;
 }
 
 .Responsive-design-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: rgba(0, 0, 0, 0.20);
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 2485px;
-    left: 838px;
-    width: 114px;
+    top: 2156px;
+    left: 196px;
+    width: 76px;
 }
 
 #Viewcasestudybutton-2 {
     display: flex;
-    width: 164px;
-    padding: 10px;
+    width: 130px;
+    padding: 8px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background: #000;
     color: #FFF;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 15px;
     text-decoration: none;
     position: absolute;
-    top: 2602px;
-    left: 579px;
+    top: 2210px;
+    margin-inline-start: 10px;
 }
 
 #Viewcasestudybutton-2:hover {
@@ -4912,136 +5028,136 @@ h3 {
 }
 
 .rectangle-below-button-2 {
-    width: 180px;
-    height: 43px;
+    width: 144px;
+    height: 30px;
     flex-shrink: 0;
-    border: 1px solid #000;
+    border: 0.792px solid #000;
     background: #A8F901;
     position: absolute;
-    top: 2608px;
-    left: 587px;
+    top: 2213px;
+    left: 30px;
     z-index: -1;
 }
 
 #Galaxy-theatre-img {
-    width: 437px;
-    height: 296px;
+    width: 286px;
+    height: 188px;
+    flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     position: absolute;
-    top: 2767px;
-    left: 542px;
+    top: 2304px;
+    margin-inline-start: 10px;
 }
 
 .Galaxy-theatre-header {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 24px;
     position: absolute;
-    top: 2761px;
-    left: 167px;
-    width: 240px;
+    top: 2513px;
+    margin-inline-start: 10px;
+    width: 160px;
 }
 
 .Galaxy-theatre-description {
-    width: 399px;
-    height: 129px;
+    width: 284px;
+    height: 74px;
     flex-shrink: 0;
     color: #000;
-    text-align: right;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30.184px;
+    line-height: 20.123px;
     position: absolute;
-    top: 2812px;
-    left: 37px;
+    top: 2552px;
+    margin-inline-start: 10px;
 }
 
 .Mobile-app-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: rgba(0, 0, 0, 0.20);
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 2965px;
-    left: 33px;
-    width: 68px;
+    top: 2641px;
+    margin-inline-start: 10px;
+    width: 46px;
 }
 
 .Seat-booking-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
-    background: rgba(168, 249, 1, 0.25);       
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
+    background: rgba(168, 249, 1, 0.25);
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 2965px;
-    left: 167px; 
-    width: 79px;       
+    top: 2641px;
+    left: 116px; 
+    width: 53px;       
 }
 
 .Movie-theatre-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: #A8F901;
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 2965px;
-    left: 312px;
-    width: 86px;
+    top: 2641px;
+    left: 213px;
+    width: 57px;
 }
 
 #Viewcasestudybutton-3 {
     display: flex;
-    width: 164px;
-    padding: 10px;
+    width: 130px;
+    padding: 8px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background: #000;
     color: #FFF;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 15px;
     text-decoration: none;
     position: absolute;
-    top: 3091px;
-    left: 264px;
+    top: 2695px;
+    margin-inline-start: 10px;
 }
 
 #Viewcasestudybutton-3:hover {
@@ -5049,136 +5165,136 @@ h3 {
 }
 
 .rectangle-below-button-3 {
-    width: 180px;
-    height: 43px;
+    width: 144px;
+    height: 30px;
     flex-shrink: 0;
-    border: 1px solid #000;
+    border: 0.792px solid #000;
     background: #A8F901;
     position: absolute;
-    top: 3096px;
-    left: 272px;
+    top: 2698px;
+    left: 30px;
     z-index: -1;
 }
 
 #Moneyfast-app-img {
-    width: 451.2px;
-    height: 296px;
+    width: 286px;
+    height: 188px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     position: absolute;
-    top: 3243px;
-    left: 32px;
+    top: 2789px;
+    margin-inline-start: 10px;
 }
 
 .Moneyfast-app-header {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 24px;
     position: absolute;
-    top: 3246px;
-    left: 574px;
-    width: 183px;
+    top: 2992px;
+    margin-inline-start: 10px;
+    width: 122px;
 }
 
 .Moneyfast-app-description {
-    width: 399px;
-    height: 129px;
+    width: 291px;
+    height: 78px;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30.184px;
+    line-height: 20.123px;
     position: absolute;
-    top: 3297px;
-    left: 577px;
+    top: 3031px;
+    margin-inline-start: 10px;
 }
 
 .Finance-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: #A8F901;
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 3450px;
-    left: 574px;
-    width: 48px;
+    top: 3124px;
+    margin-inline-start: 10px;
+    width: 32px;
 }
 
 .Mobile-banking-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: rgba(168, 249, 1, 0.25);
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 3450px;
-    left: 688px;
-    width: 94px;
+    top: 3124px;
+    left: 105px;
+    width: 63px;
 }
 
 .Digital-payments-text {
     display: inline-flex;
-    padding: 12px 20px;
+    padding: 6px 10px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border-radius: 50px;
-    border: 1px solid #000;
+    gap: 10px;
+    border-radius: 25px;
+    border: 0.5px solid #000;
     background: rgba(0, 0, 0, 0.20);
     color: #000;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 12px;
     position: absolute;
-    top: 3450px;
-    left: 848px;
-    width: 104px;
+    top: 3124px;
+    left: 213px;
+    width: 70px;
 }
 
 #Viewcasestudybutton-4 {
     display: flex;
-    width: 164px;
-    padding: 10px;
+    width: 130px;
+    padding: 8px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background: #000;
     color: #FFF;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 15px;
     text-decoration: none;
     position: absolute;
-    top: 3567px;
-    left: 574px;
+    top: 3178px;
+    margin-inline-start: 10px;
 }
 
 #Viewcasestudybutton-4:hover {
@@ -5187,705 +5303,709 @@ text-decoration: underline;
 
 
 .rectangle-below-button-4 {
-    width: 180px;
-    height: 43px;
+    width: 144px;
+    height: 30px;
     flex-shrink: 0;
-    border: 1px solid #000;
+    border: 0.792px solid #000;
     background: #A8F901;
     position: absolute;
-    top: 3573px;
-    left: 582px;
+    top: 3181px;
+    left: 30px;
     z-index: -1;
 }
 
 
 
 /* Services Section */
-.svg-shape-services {
-width: 25px;
-height: 25px;
-flex-shrink: 0;
-position: absolute;
-top: 3850px;
-left: 64px;
-}
-
-#Services-text {
-width: 78px;
-height: 12px;
-flex-shrink: 0;
-color: #000;
-font-family: Poppins;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 18px;
-position: absolute;
-top: 3833px;
-left: 98px;
-}
-
-#what-I-do-text {
-width: 102px;
-height: 12px;
-flex-shrink: 0;
-color: #000;
-font-family: Poppins;
-font-size: 12px;
-font-style: normal;
-font-weight: 300;
-line-height: 18px;
-position: absolute;
-top: 3850px;
-left: 98px;
-}
-
-.Resume-download-button {
-display: flex;
-width: 164px;
-padding: 10px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border: 1px solid #000;
-background: #A8F901;
-position: absolute;
-top: 3972px;
-left: 42px;
-}
-
-.download-icon{
-width: 24px;
-height: 24px;
-flex-shrink: 0;
-}
-
-.resume-download-text-icon {
-text-decoration: none;
-color: #000;
-font-family: Poppins;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 35.925px;
-}
-
-.rectangle-below-button-5 {
-width: 184px;
-height: 60px;
-flex-shrink: 0;
-background: #000;
-position: absolute;
-top: 5px;
-left: 7px;
-z-index: -1;
-}
-
-.UIUX-Designer-section-title {
-width: 252px;
-height: 40px;
-flex-shrink: 0;
-color: #000;
-font-family: Silk Serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 61px;
-position: absolute;
-top: 3787px;
-left: 514px;
-}
-
-
-.arrow-icon1 {
-width: 27px;
-height: 19px;
-flex-shrink: 0;
-transition: transform 0.3s;
-position: absolute;
-top: 3810px;
-left: 906px;
-}
-.expanded .arrow-icon1 {
-display: none;
-}
-
-
-.cross-icon1 {
-width: 35px;
-height: 35px;
-flex-shrink: 0;
-position: absolute;
-top: 3810px;
-left: 906px;
-display: none;
-transition: transform 0.3s;
-}
-.expanded  .cross-icon1 {
-display: block;
-}
-
-
-
-.UIUX-Designer-line1 {
-width: 493px;
-height: 1px;
-background: #000;
-position: absolute;
-top: 3839px;
-left: 483px;
-}
-.expanded .UIUX-Designer-line1 {
-position: absolute;
-top: 3948px;
-left: 483px;
-}
-
-
-
-.UIUX-Designer-section-content {
-width: 450px;
-height: 68px;
-flex-shrink: 0;
-color: #000;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 23.476px;
-position: absolute;
-top: 3835px;
-left: 514px;
-display: none;
-}
-.expanded .UIUX-Designer-section-content {
-display: block;
-}
-
-
-.Web-Design-section-title {
-width: 252px;
-height: 39px;
-flex-shrink: 0;
-color: #000;
-font-family: Silk Serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 61px;
-position: absolute;
-top: 3869px;
-left: 514px;
-
-}
-
-
-.arrow-icon2 {
-width: 27px;
-height: 19px;
-flex-shrink: 0;
-transition: transform 0.3s;
-position: absolute;
-top: 3896px;
-left: 908px;
-}
-.expanded .arrow-icon2 {
-display: none;
-}
-
-.Web-Design-line1 {
-width: 493px;
-height: 1px;
-background: #000;
-position: absolute;
-top: 3920px;
-left: 483px;
-}
-.expanded .Web-Design-line1 {
-position: absolute;
-top: 4025px;
-left: 483px;
-}
-
-
-.cross-icon2 {
-width: 35px;
-height: 35px;
-flex-shrink: 0;
-position: absolute;
-top: 3896px;
-left: 908px;
-display: none;
-}
-.expanded .cross-icon2 {
-display: block;
-}
-
-
-.Web-Design-section-content {
-width: 450px;
-height: 93px;
-flex-shrink: 0;
-color: #000;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 23.476px;
-position: absolute;
-top: 3914px;
-left: 516px;
-display: none;
-}
-.expanded .Web-Design-section-content {
-display: block;
-}
-
-
-.Graphic-Design-section-title {
-width: 287px;
-height: 40px;
-flex-shrink: 0;
-color: #000;
-font-family: Silk Serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 61px;
-position: absolute;
-top: 3959px;
-left: 514px;
-}
-
-
-.arrow-icon3 {
-width: 27px;
-height: 19px;
-flex-shrink: 0;
-position: absolute;
-top: 3985px;
-left: 906px;
-}
-.expanded .arrow-icon3 {
-display: none;
-}
-
-
-.cross-icon3 {
-width: 35px;
-height: 35px;
-flex-shrink: 0;
-position: absolute;
-top: 3985px;
-left: 906px;
-display: none;
-}
-.expanded .cross-icon3 {
-display: block;
-}
-
-.Graphic-Design-section-content {
-width: 450px;
-height: 93px;
-flex-shrink: 0;
-color: #000;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 23.476px;
-position: absolute;
-top: 4005px;
-left: 514px;
-display: none;
-}
-.expanded .Graphic-Design-section-content {
-display: block;
-}
-
-.Graphic-Design-line3 {
-width: 493px;
-height: 1px;
-background: #000;
-position: absolute;
-top: 4010px;
-left: 483px;
-}
-.expanded .Graphic-Design-line3 {
-position: absolute;
-top: 4118px;
-left: 483px;
-}
-
-.Web-Development-section-title {
-width: 335px;
-height: 39px;
-flex-shrink: 0;
-color: #000;
-font-family: Silk Serif;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 61px;
-position: absolute;
-top: 4041px;
-left: 514px;
-}
-
-.arrow-icon4 {
-width: 27px;
-height: 19px;
-flex-shrink: 0;
-position: absolute;
-top: 4067px;
-left: 906px;
-}
-.expanded .arrow-icon4 {
-display: none;
-}
-
-.cross-icon4 {
-width: 35px;
-height: 35px;
-flex-shrink: 0;
-display: none;
-position: absolute;
-top: 4067px;
-left: 906px;
-}
-.expanded .cross-icon4 {
-display: block;
-}
-
-
-.Web-Development-line3 {
-width: 493px;
-height: 1px;
-background: #000;
-position: absolute;
-top: 4091px;
-left: 483px;
-}
-.expanded .Web-Development-line3 {
-position: absolute;
-top: 4180px;
-left: 483px;
-}
-
-.Web-Development-section-content {
-width: 450px;
-height: 66px;
-flex-shrink: 0;
-color: #000;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 23.476px;
-position: absolute;
-top: 4091px;
-left: 514px;
-display: none;
-}
-.expanded .Web-Development-section-content {
-display: block;
-}
-
-.HTML-CSS, .Javascript, .Web-development, .Photoshop, .Figma, .Protopie, .UX-Research, .Product-Design {
-display: inline-flex;
-padding: 12px 20px;
-justify-content: center;
-align-items: center;
-gap: 20px;
-border-radius: 50px;
-border: 1px solid #000;
-color: #000;
-font-family: Poppins;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 18px;
-position: absolute;
-top: 4249px;
-}
-.HTML-CSS {
-left: 26px;
-}
-
-.Javascript {
-left: 150px;
-}
-
-.Web-development {
-left: 268PX;
-width: 112px;
-}
-
-.Photoshop {
-left: 430px;
-width: 65px;
-}
-
-.Figma {
-left: 548px;
-width: 40px;
-}
-
-.Protopie {
-left: 643px;
-width: 51px;
-}
-
-.UX-Research {
-left: 750px;
-width: 76px;
-}
-
-.Product-Design {
-left: 878px;
-width: 92px;
-}
-
-
-
-.Web-Design, .Usability-testing, .UX-Design, .Wireframing, .User-Interface-Design, .Interaction-Design {
-display: inline-flex;
-padding: 12px 20px;
-justify-content: center;
-align-items: center;
-gap: 20px;
-border-radius: 50px;
-border: 1px solid #000;
-color: #000;
-font-family: Poppins;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 18px;
-position: absolute;
-top: 4310px;
-}
-
-.Web-Design {
-left: 64px;
-}
-
-.Usability-testing {
-left: 187px;
-width: 97px;
-}
-
-.UX-Design {
-left: 340px;
-width: 61px;
-}
-
-.Wireframing {
-left: 460px;
-width: 76px;
-}
-
-.User-Interface-Design {
-left: 603px;
-width: 129px;
-}
-
-.Interaction-Design {
-left: 797px;
-width: 111px;
-}
-
-
-.Branding, .Information-Architecture, .Basic-Prototyping, .Advanced-Prototyping, .Responsive-Design, .Logo-Design {
-display: inline-flex;
-padding: 12px 20px;
-justify-content: center;
-align-items: center;
-gap: 20px;
-border-radius: 50px;
-border: 1px solid #000;
-color: #000;
-font-family: Poppins;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 18px;
-position: absolute;
-top: 4370px;
-}
-.Branding {
-left: 26px;
-width: 56px;
-}
-
-.Information-Architecture {
-left: 148px;
-width: 150px;
-}
-
-.Basic-Prototyping {
-left: 353px;
-width: 106px;
-}
-
-.Advanced-Prototyping {
-left: 519px;
-width: 136px;
-}
-
-.Responsive-Design {
-left: 712px;
-width: 114px;
-}
-
-.Logo-Design {
-left: 886px;
-width: 74px;
-}
-
-
-.services-declaration-text {
-width: 942px;
-height: 172.5px;
-flex-shrink: 0;
-color: #000;
-font-family: Poppins;
-font-size: 30px;
-font-style: normal;
-font-weight: 300;
-line-height: 45px;
-position: absolute;
-top: 4542px;
-left: 64px;
-}
-.code-text, .brushstroke-text, .interaction-text, .guardian-text, .soul-design-text {
-color: #000;
-font-family: Poppins;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-
-
-.services-circle {
-width: 395.25px;
-height: 395.25px;
-flex-shrink: 0;
-border-radius: 395.25px;
-background: radial-gradient(47.25% 47.25% at 50% 50%, rgba(168, 249, 1, 0.80) 0%, rgba(255, 255, 255, 0.34) 100%);
-position: absolute;
-top: 4458px;
-left: -34px;
-z-index: -1;
-}
-
-.declaration-line1 {
-width: 78.75px;
-height: 3px;
-background: #000;
-position: absolute;
-top: 4606px;
-left: 325px;
-}
-
-.declaration-line2 {
-width: 192.75px;
-height: 3px;
-background: #9644FF;
-position: absolute;
-top: 4606px;
-left: 503px;
-}
-
-.declaration-line3 {
-width: 172.5px;
-height: 3px;
-background: #FFBA07;
-position: absolute;
-top: 4655px;
-left: 64px;
-}
-
-.declaration-line4 {
-width: 145.5px;
-height: 3px;
-background: #FF2E2E;
-position: absolute;
-top: 4655px;
-left: 352px;
-}
-
-.declaration-line5 {
-width: 210.75px;
-height: 3px;
-background: #A8F901;
-position: absolute;
-top: 4700px;
-left: 763px;
-}
+    .svg-shape-services {
+        width: 25px;
+        height: 25px;
+        flex-shrink: 0;
+        position: absolute;
+        top: 3290px;
+        margin-inline-start: 10px;
+    }
+
+    #Services-text {
+        width: 78px;
+        height: 12px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        position: absolute;
+        top: 3272px;
+        left: 60px;
+    }
+
+    #what-I-do-text {
+    width: 102px;
+    height: 12px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    position: absolute;
+    top: 3290px;
+    left: 60px;
+    }
+
+    .Resume-download-button {
+        display: flex;
+        width: 92.25px;
+        padding: 5.625px;
+        justify-content: center;
+        align-items: center;
+        gap: 5.625px;
+        border: 1px solid #000;
+        background: #A8F901;
+        position: absolute;
+        top: 3593Px;
+        left: 125px;
+    }
+
+    .download-icon{
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 12px;
+        height: 12px;
+        flex-shrink: 0;
+    }
+
+    .resume-download-text-icon {
+    text-decoration: none;
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17.963px;
+    }
+
+    .rectangle-below-button-5 {
+        width: 104px;
+        height: 30px;
+        flex-shrink: 0;
+        background: #000;
+        position: absolute;
+        top: 2.75px;
+        left: 2.75px;
+        z-index: -1;
+    }
+
+    .UIUX-Designer-section-title {
+    width: 126px;
+    height: 25px;
+    color: #000;
+    font-family: Silk Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    position: absolute;
+    top: 3351px;
+    left: 42px;
+    }
+
+
+    .arrow-icon1 {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 15px;
+        height: 10px;    
+        transition: transform 0.3s;
+        position: absolute;
+        top: 3360px;
+        left: 275px;
+    }
+    .expanded .arrow-icon1 {
+    display: none;
+    }
+
+
+    .cross-icon1 {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 15px;
+        height: 15px;
+    position: absolute;
+    top: 3360px;
+    left: 275px;
+    display: none;
+    transition: transform 0.3s;
+    }
+    .expanded  .cross-icon1 {
+    display: block;
+    }
+
+
+
+    .UIUX-Designer-line1 {
+        width: 282px;
+    height: 0.5px;
+    background: #000;
+    position: absolute;
+    top: 3377px;
+    margin-inline-start: 10px;
+    }
+    .expanded .UIUX-Designer-line1 {
+    position: absolute;
+    top: 3420px;
+    margin-inline-start: 10px;
+    }
+
+
+
+    .UIUX-Designer-section-content {
+        width: 265px;
+        height: 44px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11.738px;
+    position: absolute;
+    top: 3370px;
+    left: 43px;
+    display: none;
+    }
+    .expanded .UIUX-Designer-section-content {
+    display: block;
+    }
+
+
+    .Web-Design-section-title {
+        width: 126px;
+        height: 25px;
+        color: #000;
+        font-family: Silk Serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;  
+    position: absolute;
+    top: 3392px;
+    left: 42px;
+
+    }
+
+
+    .arrow-icon2 {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 15px;
+        height: 10px;  
+    transition: transform 0.3s;
+    position: absolute;
+    top: 3405px;
+    left: 275px;
+    }
+    .expanded .arrow-icon2 {
+    display: none;
+    }
+
+    .Web-Design-line1 {
+    width: 282px;
+    height: 0.5px;
+    background: #000;
+    position: absolute;
+    top: 3417px;
+    margin-inline-start: 10px;
+    }
+    .expanded .Web-Design-line1 {
+    position: absolute;
+    top: 3458px;
+    margin-inline-start: 10px;
+    }
+
+
+    .cross-icon2 {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 15px;
+        height: 15px; 
+    position: absolute;
+    top: 3405px;
+    left: 275px;
+    display: none;
+    }
+    .expanded .cross-icon2 {
+    display: block;
+    }
+
+
+    .Web-Design-section-content {
+        width: 269px;
+        height: 44px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11.738px;
+    position: absolute;
+    top: 3410px;
+    left: 42px;
+    display: none;
+    }
+    .expanded .Web-Design-section-content {
+    display: block;
+    }
+
+
+    .Graphic-Design-section-title {
+        width: 143.5px;
+        height: 20px;
+        color: #000;
+        font-family: Silk Serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;  
+    position: absolute;
+    top: 3437px;
+    left: 42px;
+    }
+
+
+    .arrow-icon3 {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 15px;
+        height: 10px;  
+        position: absolute;
+        top: 3450px;
+        left: 275px;
+    }
+    .expanded .arrow-icon3 {
+    display: none;
+    }
+
+
+    .cross-icon3 {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 3450px;
+        left: 275px;
+    display: none;
+    }
+    .expanded .cross-icon3 {
+    display: block;
+    }
+
+    .Graphic-Design-section-content {
+        width: 270px;
+        height: 34px;
+        flex-shrink: 0; 
+        color: #000;
+        font-family: Poppins;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11.738px;
+    position: absolute;
+    top: 3460px;
+    left: 42px;
+    display: none;
+    }
+    .expanded .Graphic-Design-section-content {
+    display: block;
+    }
+
+    .Graphic-Design-line3 {
+    width: 282px;
+    height: 0.5px;
+    background: #000;
+    position: absolute;
+    top: 3462px;
+    margin-inline-start: 10px;
+    }
+    .expanded .Graphic-Design-line3 {
+    position: absolute;
+    top: 3508px;
+    margin-inline-start: 10px;
+    }
+
+    .Web-Development-section-title {
+        width: 168px;
+        height: 20px;
+        color: #000;
+        font-family: Silk Serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;  
+    position: absolute;
+    top: 3478px;
+    left: 42px;
+    }
+
+    .arrow-icon4 {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 15px;
+        height: 10px;  
+    position: absolute;
+    top: 3488px;
+    left: 275px;
+    }
+    .expanded .arrow-icon4 {
+    display: none;
+    }
+
+    .cross-icon4 {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 15px;
+        height: 15px;
+    display: none;
+    position: absolute;
+    top: 3488px;
+    left: 275px;
+    }
+    .expanded .cross-icon4 {
+    display: block;
+    }
+
+
+    .Web-Development-line3 {
+    width: 282px;
+    height: 0.5px;
+    background: #000;
+    position: absolute;
+    top: 3500px;
+    margin-inline-start: 10px;
+    }
+    .expanded .Web-Development-line3 {
+    position: absolute;
+    top: 3545px;
+    margin-inline-start: 10px;
+    }
+
+    .Web-Development-section-content {
+        width: 270px;
+        height: 33px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11.738px;
+    position: absolute;
+    top: 3498px;
+    left: 42px;
+    display: none;
+    }
+    .expanded .Web-Development-section-content {
+    display: block;
+    }
+
+    .HTML-CSS, .Javascript, .Web-development, .Photoshop, .Figma, .Protopie, .UX-Research, .Product-Design,.Web-Design, .Usability-testing, .UX-Design, .Wireframing, .User-Interface-Design, .Interaction-Design,
+    .Branding, .Information-Architecture, .Basic-Prototyping, .Advanced-Prototyping, .Responsive-Design, .Logo-Design  {
+        display: flex;
+        padding: 8.1px 13.5px;
+        justify-content: center;
+        align-items: center;
+        gap: 13.5px;
+        border-radius: 33.75px;
+        border: 0.675px solid #000;
+        color: #000;
+        font-family: Poppins;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 12px;
+    }
+    .HTML-CSS {
+        position: absolute;
+        top: 3694px;
+        left: 32px; 
+    }
+
+    .Javascript {
+        position: absolute;
+        top: 3694px;
+        left: 121px;
+    }
+
+    .Web-development {
+        position: absolute;
+        top: 3694px;
+        left: 205PX;
+        width: 75px;
+    }
+
+    .Photoshop {
+        position: absolute;
+        top: 3736px;
+        left: 64px;
+        width: 44px;
+    }
+
+    .Figma {
+        position: absolute;
+        top: 3736px;
+        left: 150px;
+        width: 26px;
+    }
+
+    .Protopie {
+        position: absolute;
+        top: 3736px;
+        left: 216px;
+        width: 34px;
+    }
+
+    .UX-Research {
+        position: absolute;
+        top: 3778px;
+        left: 30px;
+        width: 51px;
+    }
+
+    .Product-Design {
+        position: absolute;
+        top: 3778px;
+        left: 122px;
+        width: 62px;
+    }
+
+    .Web-Design {
+        position: absolute;
+        top: 3778px;
+    left: 225px;
+    }
+
+    .Usability-testing {
+        position: absolute;
+        top: 3821px;
+    left: 32px;
+    width: 65px;
+    }
+
+    .UX-Design {
+        position: absolute;
+        top: 3821px;
+    left: 139px;
+    width: 41px;
+    }
+
+    .Wireframing {
+        position: absolute;
+        top: 3821px;
+    left: 221px;
+    width: 52px;
+    }
+
+    .User-Interface-Design {
+        position: absolute;
+        top: 3863px;
+    left: 48px;
+    width: 86px;
+    }
+
+    .Interaction-Design {
+        position: absolute;
+        top: 3863px;
+    left: 177px;
+    width: 74px;
+    }
+
+    .Branding {
+        position: absolute;
+        top: 3905px;
+    left: 40px;
+    width: 37px;
+    }
+
+    .Information-Architecture {
+        position: absolute;
+        top: 3905px;
+        left: 118px;
+        width: 99px;
+    }
+
+    .Basic-Prototyping {
+        position: absolute;
+        top: 3947px;
+    left: 57px;
+    width: 71px;
+    }
+
+    .Advanced-Prototyping {
+        position: absolute;
+        top: 3947px;
+    left: 170px;
+    width: 91px;
+    }
+
+    .Responsive-Design {
+        position: absolute;
+        top: 3990px;
+    left: 39px;
+    width: 76px;
+    }
+
+    .Logo-Design {
+        position: absolute;
+        top: 3990px;
+    left: 157px;
+    width: 50px;
+    }
+
+
+    .services-declaration-text {
+        width: 291px;
+        height: 138px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 23px;
+    position: absolute;
+    top: 4092px;
+    margin-inline-start: 10px;
+    }
+    .code-text, .brushstroke-text, .interaction-text, .guardian-text, .soul-design-text {
+        color: #000;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+    }
+
+
+    .services-circle {
+        width: 197.625px;
+        height: 197.625px;
+        flex-shrink: 0;
+    border-radius: 395.25px;
+    background: radial-gradient(47.25% 47.25% at 50% 50%, rgba(168, 249, 1, 0.80) 0%, rgba(255, 255, 255, 0.34) 100%);
+    position: absolute;
+    top: 4060px;
+    left: -30px;
+    z-index: -1;
+    }
+
+    .declaration-line1 {
+        width: 39.375px;
+        height: 1.125px;
+    background: #000;
+    position: absolute;
+    top: 4125px;
+    left: 157px;
+    }
+
+    .declaration-line2 {
+        width: 96.375px;
+        height: 1.125px;
+    background: #9644FF;
+    position: absolute;
+    top: 4147px;
+    left: 29px;
+    }
+
+    .declaration-line3 {
+        width: 86.25px;
+        height: 1.125px;
+    background: #FFBA07;
+    position: absolute;
+    top: 4147px;
+    left: 209px;
+    }
+
+    .declaration-line4 {
+        width: 72.75px;
+        height: 1.125px;
+    background: #FF2E2E;
+    position: absolute;
+    top: 4170px;
+    left: 71px;
+    }
+
+    .declaration-line5 {
+        width: 105.375px;
+        height: 1.125px;
+    background: #A8F901;
+    position: absolute;
+    top: 4216px;
+    left: 131px;
+    }
 
 
 /* Footer Section */
 .Footer-text1 {
-    width: 900px;
-    height: 109px;
+    width: 286px;
+    height: 108px;
     flex-shrink: 0;
     color: #000;
     font-family: Silk Serif;
-    font-size: 72px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: 110px;
+    line-height: 54px;
     position: absolute;
-    top: 4855px;
-    left: 60px;
+    top: 4277px;
+    margin-inline-start: 10px;
 }
 
 .something-text {
     color: #000;
     font-family: Silk Serif;
-    font-size: 72px;
+    font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    line-height: 110px;
+    line-height: 54px;
 }
 
 .emailme-text {
     display: flex;
-    width: 144px;
-    height: 64.5px;
-    padding: 7.5px;
+    width: 72px;
+    height: 32.25px;
+    padding: 3.75px;
     justify-content: center;
     align-items: center;
-    gap: 7.5px;
+    gap: 3.75px;
     flex-shrink: 0;
-    border-radius: 75px;
-    border: 0.75px solid #000;
+    border-radius: 37.5px;
+    border: 0.375px solid #000;
     color: #000;
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
-    line-height: 45px;
+    line-height: 23px;
     position: absolute;
-    top: 5055px;
-    left: 66px;
+    top: 4425px;
+left: 133px;
 }
 
 #Email-address {
-    width: 709px;
-    height: 101px;
-    flex-shrink: 0;
     color: #A8F901;
     font-family: Silk Serif;
-    font-size: 67.5px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 300;
-    line-height: 110px;
+    line-height: 40px;
     position: absolute;
-    top: 5070px;
-    left: 250px;
+    top: 4506px;
+    margin-inline-start: 10px;
     text-decoration: none;
 }
 #Email-address:hover {
@@ -5894,24 +6014,24 @@ left: 763px;
 
 
 .email-underline {
-    width: 716px;
-    height: 1.5px;
+    width: 271px;
+    height: 0.75px;
     background: #A8F901;
     position: absolute;
-    top: 5145px;
-    left: 254px;
+    top: 4532px;
+    margin-inline-start: 10px;
 }
 
 .for-text {
     color: #000;
     font-family: Silk Serif;
-    font-size: 72px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: 110px;
+    line-height: 54px;
     position: absolute;
-    top: 5150px;
-    left: 66px;
+    top: 4527px;
+    margin-inline-start: 10px;
 }
 
 .work-design {
@@ -5924,6 +6044,7 @@ left: 763px;
     position: absolute;
     top: 5235px;
     left: 260px;
+    display: none;
 }
 
 .footer-line-1 {
@@ -5933,18 +6054,19 @@ left: 763px;
     position: absolute;
     top: 5290px;
     left: 183px;
+    display: none;
 }
 
 .collaborations {
     color: #000;
     font-family: Silk Serif;
-    font-size: 72px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 400;
-    line-height: 110px;
+    line-height: normal;
     position: absolute;
-    top: 5150px;
-    left: 482px;
+    top: 4527px;
+    left: 89px;
 }
 
 .svg-shape-footer {
@@ -5954,43 +6076,46 @@ left: 763px;
     position: absolute;
     top: 5260px;
     left: 950px;
+    display: none;
 }
 
 #footer-logo-image {
-    width: 52.5px;
-    height: 51.75px;
+    width: 26px;
+    height: 26px;
     flex-shrink: 0;
     position: absolute;
-    top: 5498px;
-    left: 66px;
+    top: 4667px;
+ margin-inline-start: 10px;
 }
 
 .in-touch-text {
     color: #000;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 29.938px;
+    line-height: 17.963px;
     position: absolute;
-    top: 5484px;
-    left: 456px;
+    top: 4658px;
+    left: 130px;
     width: 140px;
 }
 
 #LinkedIn {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 300;
-    line-height: 35.925px;
+    line-height: 14.969px;
     text-decoration: none;
     transition: text-decoration 0.3s ease-in-out;
     position: absolute;
-    top: 5580px;
-    left: 290px;
-    width: 95px;
+    top: 4711px;
+    left: 30px;
+    width: 47px;
+    height: 15px;
+    flex-shrink: 0;
 }
 
 #LinkedIn:hover {
@@ -6001,16 +6126,18 @@ left: 763px;
 #Behance {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 300;
-    line-height: 35.925px;
+    line-height: 14.969px;
     text-decoration: none;
     transition: text-decoration 0.3s ease-in-out;
     position: absolute;
-    top: 5580px;
-    left: 473px;
-    width: 106px;
+    top: 4711px;
+    left: 117px;
+    width: 47px;
+    height: 15px;
+    flex-shrink: 0;
 }
 
 #Behance:hover {
@@ -6020,93 +6147,84 @@ left: 763px;
 #Dribble {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 300;
-    line-height: 35.925px;
+    line-height: 14.969px;
+    text-decoration: none;
     transition: text-decoration 0.3s ease-in-out;
     position: absolute;
-    top: 5580px;
-    left: 663px;
-    text-decoration: none;
-    width: 84px;
+    top: 4711px;
+    left: 202px;
+    width: 47px;
+    height: 15px;
+    flex-shrink: 0;
 }
 
 #Dribble:hover {
     text-decoration: underline;
 }
 
-#footer-contactme-button {
-    display: flex;
-    width: 164px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background: #000;
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 35.925px;
-    transition: text-decoration 0.3s ease-in-out;
-    position: absolute;
-    top: 5750px;
-    left: 451px;
-    text-decoration: none;
-
-}
-#footer-contactme-button:hover {
-    text-decoration: underline;
-}
-
-
-.rectangle-below-contactme-footer {
-    width: 180px;
-    height: 56px;
-    flex-shrink: 0;
-    border: 1px solid #000;
-    background: #A8F901;
-    position: absolute;
-    top: 5755px;
-    left: 459px;
-    z-index: -1;
-}
-
 .Rights {
     color: #000;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 7.5px;
     font-style: normal;
     font-weight: 300;
-    line-height: 22.453px;
+    line-height:  11.227px;
     position: absolute;
-    top: 5840px;
-    left: 66px;
-    width: 190px;
+    top: 4762px;
+    margin-inline-start: 10px;
+    width: 95px;
 
 }
 
 .Developer {
     color: #000;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 7.5px;
     font-style: normal;
     font-weight: 300;
-    line-height: 22.453px;
+    line-height: 11.227px;
     position: absolute;
-    top: 5840px;
-    left: 736px;
+    top: 4762px;
+    left: 210px;
     bottom: 20px;
-    width: 278px;
+    width: 105px;
 }
 
+#Email {
+    color: #000;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14.969px;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease-in-out;
+    position: absolute;
+    top: 4711px;
+    left: 285px;
+    width: 47px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.Art-Design {
+    display: none;
+}
+
+.Wordpress {
+    display: none;
+}
+.Adobe-Indesign {
+    display: none;
+}
 
 }
 
 /*Screen sizes 768px tablets screens*/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 501px) and (max-width: 1023px) {
 
     body {
         width: 1024px;
@@ -8136,97 +8254,21 @@ left: 763px;
     width: 278px;
 }
 
+#Email {
+    display: none;
+}
 
+.Art-Design {
+    display: none;
+}
+
+.Wordpress {
+    display: none;
+}
+.Adobe-Indesign {
+    display: none;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
