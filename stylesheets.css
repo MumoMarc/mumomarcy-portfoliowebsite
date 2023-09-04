@@ -5963,6 +5963,7 @@ text-decoration: underline;
     position: absolute;
     top: 4277px;
     margin-inline-start: 10px;
+    display: none;
 }
 
 .something-text {
@@ -5972,6 +5973,7 @@ text-decoration: underline;
     font-style: italic;
     font-weight: 300;
     line-height: 54px;
+    display: none;
 }
 
 .emailme-text {
@@ -5994,6 +5996,7 @@ text-decoration: underline;
     position: absolute;
     top: 4425px;
 left: 133px;
+display: none;
 }
 
 #Email-address {
@@ -6007,6 +6010,7 @@ left: 133px;
     top: 4506px;
     margin-inline-start: 10px;
     text-decoration: none;
+    display: none;
 }
 #Email-address:hover {
     color: #000;
@@ -6020,6 +6024,7 @@ left: 133px;
     position: absolute;
     top: 4532px;
     margin-inline-start: 10px;
+    display: none;
 }
 
 .for-text {
@@ -6032,6 +6037,7 @@ left: 133px;
     position: absolute;
     top: 4527px;
     margin-inline-start: 10px;
+    display: none;
 }
 
 .work-design {
@@ -6067,6 +6073,7 @@ left: 133px;
     position: absolute;
     top: 4527px;
     left: 89px;
+    display: none;
 }
 
 .svg-shape-footer {
@@ -6084,7 +6091,7 @@ left: 133px;
     height: 26px;
     flex-shrink: 0;
     position: absolute;
-    top: 4667px;
+    top: 4310px;
  margin-inline-start: 10px;
 }
 
@@ -6096,7 +6103,7 @@ left: 133px;
     font-weight: 500;
     line-height: 17.963px;
     position: absolute;
-    top: 4658px;
+    top: 4296px;
     left: 130px;
     width: 140px;
 }
@@ -6111,7 +6118,7 @@ left: 133px;
     text-decoration: none;
     transition: text-decoration 0.3s ease-in-out;
     position: absolute;
-    top: 4711px;
+    top: 4350px;
     left: 30px;
     width: 47px;
     height: 15px;
@@ -6133,7 +6140,7 @@ left: 133px;
     text-decoration: none;
     transition: text-decoration 0.3s ease-in-out;
     position: absolute;
-    top: 4711px;
+    top: 4350px;
     left: 117px;
     width: 47px;
     height: 15px;
@@ -6154,7 +6161,7 @@ left: 133px;
     text-decoration: none;
     transition: text-decoration 0.3s ease-in-out;
     position: absolute;
-    top: 4711px;
+    top: 4350px;
     left: 202px;
     width: 47px;
     height: 15px;
@@ -6173,7 +6180,7 @@ left: 133px;
     font-weight: 300;
     line-height:  11.227px;
     position: absolute;
-    top: 4762px;
+    top: 4390px;
     margin-inline-start: 10px;
     width: 95px;
 
@@ -6187,7 +6194,7 @@ left: 133px;
     font-weight: 300;
     line-height: 11.227px;
     position: absolute;
-    top: 4762px;
+    top: 4390px;
     left: 210px;
     bottom: 20px;
     width: 105px;
@@ -6203,7 +6210,7 @@ left: 133px;
     text-decoration: none;
     transition: text-decoration 0.3s ease-in-out;
     position: absolute;
-    top: 4711px;
+    top: 4350px;
     left: 285px;
     width: 47px;
     height: 15px;
