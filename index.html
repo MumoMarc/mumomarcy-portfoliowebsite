@@ -80,9 +80,9 @@
                 <li class="dropdown">
                     <button class="dropdown-button" Alt="Menu button">Menu</button>
                     <div class="dropdown-content">
-                        <a href="#About-Section" id="scrollto-About">About</a>
-                        <a href="#Project-Section" id="scrollto-Projects">Projects/Work</a>
-                        <a href="#Services-Section" id="scrollto-Services">Services</a>
+                        <a href="#Creative-text-scroll" id="scrollto-About">About</a>
+                        <a href="#DriveCrewApp" id="scrollto-Projects">Projects/Work</a>
+                        <a href="#UIUX-Designer-section-title-scroll" id="scrollto-Services">Services</a>
                     </div>
                 </li>
             </ul>
@@ -137,7 +137,7 @@
 
         <h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   I am a UI/UX Designer with a background in Landscape design and architecture, extensive knowledge of UX design, and a basic understanding of HTML, CSS & JavaScript. As a designer I focus on producing top-notch and impactful digital experiences as well as closing the gap between design and development. I believe that behind every click and tap lies a person, not just a user. </h2>
 
-         <p class="creative-text"> Creative</p>   
+         <p class="creative-text" id="Creative-text-scroll"> Creative</p>   
          <p class="designer-text"> Designer</p>
          <p class="developer-text"> Developer</p>
          <p class="About-text"> About</p>
@@ -339,7 +339,7 @@
         <div class="UIUX-Designer-services-section">
             <div class="UIUX-Designer-section-header">
 
-                <div class="UIUX-Designer-section-title"> 
+                <div class="UIUX-Designer-section-title"  id="UIUX-Designer-section-title-scroll"> 
                     UI/UX Design 
                 </div>
                 
@@ -595,7 +595,28 @@
 
 
     </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('.dropdown-content a');
 
+            links.forEach(link => {
+                link.addEventListener('click', scrollToSection);
+            });
+
+            function scrollToSection(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1); // Remove the '#' from href
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    </script>
    
 </body>
 </html>
